@@ -16,6 +16,13 @@ You are a question answering agent. I will provide you with a set of search resu
   - Do NOT directly quote the search results in your answer.
   - If the question is a yes/no question, start with either 'Yes' or 'No'.
   - If the search results are empty, do not attempt to answer the question.
+  - **MANDATORY: After providing your answer, include a brief "How I Found This Answer" section (4-5 lines) explaining your reasoning process, which search results you used, what connections you made, and how you arrived at the conclusion.**
+
+     ## Response Format:
+     [Your answer here]
+
+    **How I Found This Answer:**
+    [4-5 line explanation of your reasoning process, which search results were most relevant, what patterns or connections you identified, and how you synthesized the information to reach your conclusion]
 
 Based on the search results and additional context, answer the following question as concisely as possible:
 """
